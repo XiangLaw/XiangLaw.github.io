@@ -189,6 +189,29 @@
           
                  
           
+          
+<div id="gitalk-container/" style="border:0" ></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css/" style="border:0" >
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js/" style="border:0" ></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '0fadc4d39fb4d9b1dfaf',
+    clientSecret: '7cb09dfa7d36b7304199661ae6da72c6496d9d55',
+    repo: 'xianglaw.github.io',
+    owner: 'XiangLaw',
+    admin: ['XiangLaw'],
+    id: location.pathname, 
+    distractionFreeMode: false 
+  });
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+      return;
+    }
+    gitalk.render('gitalk-container');
+  })();
+</script>
+
     </div>
 </article>
           </div>
