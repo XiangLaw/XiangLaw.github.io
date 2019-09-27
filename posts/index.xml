@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Tony`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 27 Sep 2019 12:36:09 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2019 14:14:36 +0800</lastBuildDate>
     
 	<atom:link href="https://xianglaw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Second</title>
+      <link>https://xianglaw.github.io/2019/second/</link>
+      <pubDate>Fri, 27 Sep 2019 14:14:36 +0800</pubDate>
+      
+      <guid>https://xianglaw.github.io/2019/second/</guid>
+      <description>jjjnnnd
+223333</description>
+    </item>
     
     <item>
       <title>Hello</title>
